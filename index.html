@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS Reading Guide: Как прокачать Reading от Band 5 до Band 9</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.7;
+            scroll-behavior: smooth;
+        }
+        
+        /* Header стили */
+        header {
+            background: linear-gradient(to right, #1d976c, #93f9b9);
+            color: white;
+            padding: 1.8rem 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 25px;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.9rem;
+            font-weight: 800;
+        }
+        
+        .logo i {
+            color: #FFD700;
+        }
+        
+        .tg-channel {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .tg-channel:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .tg-channel i {
+            color: #0088cc;
+        }
+        
+        /* Навигация */
+        nav {
+            background-color: white;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 0.9rem 0;
+            position: sticky;
+            top: 94px;
+            z-index: 99;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+        
+        .nav-links li {
+            margin: 0 5px;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: #444;
+            font-weight: 600;
+            padding: 10px 18px;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+            font-size: 0.95rem;
+            white-space: nowrap;
+        }
+        
+        .nav-links a:hover {
+            background-color: #e8f5e9;
+            color: #1d976c;
+        }
+        
+        .nav-links a.active {
+            background-color: #1d976c;
+            color: white;
+        }
+        
+        /* Основной контент */
+        main {
+            padding: 2.5rem 0;
+        }
+        
+        section {
+            margin-bottom: 3.5rem;
+            scroll-margin-top: 160px;
+        }
+        
+        h1, h2, h3, h4 {
+            color: #1d976c;
+            margin-bottom: 1.2rem;
+        }
+        
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1.8rem;
+            border-bottom: 4px solid #93f9b9;
+            padding-bottom: 0.8rem;
+            display: inline-block;
+            background: linear-gradient(to right, #1d976c, #2c9c6d);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        h2 {
+            font-size: 2.2rem;
+            margin-top: 2.5rem;
+            color: #1d976c;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e0f7e9;
+            position: relative;
+        }
+        
+        h2:before {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 80px;
+            height: 2px;
+            background-color: #1d976c;
+        }
+        
+        h3 {
+            font-size: 1.6rem;
+            color: #2e7d32;
+            margin-top: 2rem;
+            padding-left: 15px;
+            border-left: 4px solid #93f9b9;
+        }
+        
+        h4 {
+            font-size: 1.3rem;
+            color: #388e3c;
+            margin-top: 1.5rem;
+        }
+        
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 1.08rem;
+            color: #444;
+        }
+        
+        .intro {
+            font-size: 1.15rem;
+            background: linear-gradient(to right, #e8f5e9, #f1f8e9);
+            padding: 2rem;
+            border-radius: 12px;
+            margin-bottom: 2.5rem;
+            border-left: 6px solid #1d976c;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        /* Секции и карточки */
+        .section-card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 2.2rem;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+            border-top: 5px solid #93f9b9;
+            transition: transform 0.3s ease;
+        }
+        
+        .section-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .highlight {
+            background-color: #fffde7;
+            padding: 1.8rem;
+            border-radius: 10px;
+            margin: 1.8rem 0;
+            border-left: 5px solid #FFD700;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+        }
+        
+        .warning {
+            background-color: #ffebee;
+            padding: 1.8rem;
+            border-radius: 10px;
+            margin: 1.8rem 0;
+            border-left: 5px solid #f44336;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+        }
+        
+        .tip {
+            background-color: #e8f5e9;
+            padding: 1.8rem;
+            border-radius: 10px;
+            margin: 1.8rem 0;
+            border-left: 5px solid #4CAF50;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+        }
+        
+        .tip i, .warning i, .highlight i {
+            margin-right: 10px;
+        }
+        
+        ul, ol {
+            margin-left: 2rem;
+            margin-bottom: 1.8rem;
+        }
+        
+        li {
+            margin-bottom: 0.7rem;
+            position: relative;
+        }
+        
+        ul li:before {
+            content: "•";
+            color: #1d976c;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        
+        ol {
+            counter-reset: item;
+        }
+        
+        ol li {
+            counter-increment: item;
+        }
+        
+        ol li:before {
+            content: counter(item) ".";
+            color: #1d976c;
+            font-weight: bold;
+            display: inline-block;
+            width: 1.5em;
+            margin-left: -2.5em;
+            text-align: right;
+        }
+        
+        /* Уровни */
+        .levels {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin: 2.5rem 0;
+        }
+        
+        .level-card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .level-card:hover {
+            transform: translateY(-8px);
+        }
+        
+        .level-card.beginner {
+            border-top: 6px solid #4CAF50;
+        }
+        
+        .level-card.intermediate {
+            border-top: 6px solid #2196F3;
+        }
+        
+        .level-card.advanced {
+            border-top: 6px solid #9C27B0;
+        }
+        
+        .level-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 1.5rem;
+        }
+        
+        .level-title i {
+            font-size: 2rem;
+        }
+        
+        .beginner .level-title i { color: #4CAF50; }
+        .intermediate .level-title i { color: #2196F3; }
+        .advanced .level-title i { color: #9C27B0; }
+        
+        /* Таблица */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            box-shadow: 0 0 15px rgba(0,0,0,0.05);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        th, td {
+            padding: 14px 18px;
+            text-align: left;
+            border: 1px solid #e0e0e0;
+        }
+        
+        th {
+            background-color: #1d976c;
+            color: white;
+            font-weight: 700;
+            font-size: 1.05rem;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        tr:hover {
+            background-color: #f1f8e9;
+        }
+        
+        /* Разбор вопросов */
+        .question-types {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2.5rem 0;
+        }
+        
+        .question-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 1.8rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+            border-left: 5px solid #1d976c;
+        }
+        
+        .question-title {
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: #1d976c;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        /* Ресурсы */
+        .resources {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.8rem;
+            margin: 2.5rem 0;
+        }
+        
+        .resource-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 1.8rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+            border-left: 5px solid #93f9b9;
+            transition: transform 0.3s ease;
+        }
+        
+        .resource-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .resource-name {
+            font-weight: 700;
+            margin-bottom: 0.8rem;
+            color: #1d976c;
+            font-size: 1.2rem;
+        }
+        
+        /* Чек-лист */
+        .checklist {
+            background: linear-gradient(to right, #e8f5e9, #f1f8e9);
+            padding: 2.2rem;
+            border-radius: 12px;
+            margin: 2.5rem 0;
+            border: 2px solid #c8e6c9;
+        }
+        
+        .checklist-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1.2rem;
+            padding-bottom: 1.2rem;
+            border-bottom: 1px dashed #c8e6c9;
+        }
+        
+        .checklist-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+        .checklist-item i {
+            color: #4CAF50;
+            margin-right: 15px;
+            margin-top: 3px;
+            font-size: 1.2rem;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #1d976c;
+            color: white;
+            padding: 3rem 0;
+            margin-top: 4rem;
+        }
+        
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .footer-logo {
+            font-size: 1.6rem;
+            font-weight: 700;
+        }
+        
+        .footer-tg {
+            background-color: rgba(255, 255, 255, 0.15);
+            padding: 12px 25px;
+            border-radius: 30px;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .footer-tg:hover {
+            background-color: rgba(255, 255, 255, 0.25);
+            transform: translateY(-3px);
+        }
+        
+        .copyright {
+            text-align: center;
+            margin-top: 2.5rem;
+            padding-top: 1.8rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            width: 100%;
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
+        
+        /* Иконки и декорации */
+        .icon-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: #e8f5e9;
+            border-radius: 50%;
+            margin-right: 10px;
+            color: #1d976c;
+        }
+        
+        .section-number {
+            display: inline-block;
+            background-color: #1d976c;
+            color: white;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 36px;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+        
+        /* Адаптивность */
+        @media (max-width: 992px) {
+            .header-content {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .nav-links {
+                justify-content: flex-start;
+                overflow-x: auto;
+                padding-bottom: 5px;
+            }
+            
+            .nav-links a {
+                padding: 8px 15px;
+                font-size: 0.9rem;
+            }
+            
+            nav {
+                top: 140px;
+            }
+            
+            section {
+                scroll-margin-top: 200px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            h2 {
+                font-size: 1.8rem;
+            }
+            
+            h3 {
+                font-size: 1.4rem;
+            }
+            
+            .section-card {
+                padding: 1.5rem;
+            }
+            
+            .footer-content {
+                flex-direction: column;
+                gap: 25px;
+                text-align: center;
+            }
+            
+            table {
+                display: block;
+                overflow-x: auto;
+            }
+            
+            .levels, .question-types, .resources {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 15px;
+            }
+            
+            h1 {
+                font-size: 1.9rem;
+            }
+            
+            .logo {
+                font-size: 1.6rem;
+            }
+            
+            .tg-channel {
+                padding: 8px 15px;
+                font-size: 1rem;
+            }
+            
+            .section-card {
+                padding: 1.2rem;
+            }
+        }
+        
+        /* Back to top button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background-color: #1d976c;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+            z-index: 90;
+            border: none;
+            opacity: 0;
+            visibility: hidden;
+        }
+        
+        .back-to-top.show {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .back-to-top:hover {
+            background-color: #2e7d32;
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-book-reader"></i>
+                    <span>IELTS Reading Guide</span>
+                </div>
+                <div class="tg-channel">
+                    <i class="fab fa-telegram"></i>
+                    <span>ielts_in1month</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Главная</a></li>
+                <li><a href="#strategy">Стратегия</a></li>
+                <li><a href="#levels">Уровни подготовки</a></li>
+                <li><a href="#question-types">Типы вопросов</a></li>
+                <li><a href="#practice">Система практики</a></li>
+                <li><a href="#resources">Ресурсы</a></li>
+                <li><a href="#checklist">Чек-лист</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Главная секция -->
+        <section id="home">
+            <h1>📖 ГАЙД: Как прокачать IELTS Reading от Band 5 до Band 9</h1>
+            
+            <div class="intro">
+                <p><strong>Для кого:</strong> Для тех, кому не хватает времени, кто теряется в текстах или постоянно ошибается в «ловушках».</p>
+                <p><strong>Цель:</strong> Научить вас не просто читать, а эффективно сканировать текст, понимать логику вопросов и избегать ошибок.</p>
+                
+                <div class="tip" style="margin-top: 1.5rem;">
+                    <i class="fas fa-lightbulb"></i>
+                    <strong>Совет:</strong> Используйте навигацию выше для быстрого перехода к нужному разделу. Все материалы на одной странице для вашего удобства!
+                </div>
+            </div>
+            
+            <div class="warning">
+                <i class="fas fa-exclamation-circle"></i>
+                <strong>Важно:</strong> Не забывайте подписываться на наш Telegram-канал <strong>@ielts_in1month</strong> для получения дополнительных материалов, советов и регулярных обновлений по подготовке к IELTS Reading!
+            </div>
+        </section>
+        
+        <!-- Стратегия -->
+        <section id="strategy">
+            <div class="section-card">
+                <h2><span class="section-number">1</span> Понимание формата и стратегии</h2>
+                
+                <div class="warning">
+                    <i class="fas fa-times-circle"></i>
+                    <strong>Главная ошибка:</strong> читать текст как книгу, от начала до конца. Так времени не хватит!
+                </div>
+                
+                <div class="tip">
+                    <i class="fas fa-check-circle"></i>
+                    <strong>Правильная стратегия:</strong> «Question First» (Сначала вопросы!)
+                </div>
+                
+                <h3>Алгоритм работы с текстом:</h3>
+                
+                <div class="practice-steps">
+                    <div class="checklist-item">
+                        <i class="fas fa-search"></i>
+                        <div>
+                            <strong>Бегло просмотрите текст (1-2 минуты):</strong> Прочитайте заголовок, подзаголовки, первое и последнее предложения каждого параграфа. Поймите общую тему и структуру.
+                        </div>
+                    </div>
+                    
+                    <div class="checklist-item">
+                        <i class="fas fa-question-circle"></i>
+                        <div>
+                            <strong>Переходите сразу к вопросам.</strong> Читайте их внимательно, подчеркивайте ключевые слова (имена, даты, термины, слова вопроса: cause, effect, advantage).
+                        </div>
+                    </div>
+                    
+                    <div class="checklist-item">
+                        <i class="fas fa-binoculars"></i>
+                        <div>
+                            <strong>Ищите ответы в тексте, используя ключевые слова.</strong> Вы не должны «понимать всё» — вы должны находить информацию. Это экзамен на поиск, а не на эрудицию.
+                        </div>
+                    </div>
+                    
+                    <div class="checklist-item">
+                        <i class="fas fa-exchange-alt"></i>
+                        <div>
+                            <strong>Помните о синонимах и перефразах.</strong> В вопросе будет "major cause", а в тексте — "primary reason". Ваша задача — их сопоставить.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <i class="fas fa-key"></i>
+                    <strong>Ключевой принцип:</strong> IELTS Reading проверяет вашу способность находить информацию, а не глубоко понимать текст. Тренируйте навык поиска, а не чтения!
+                </div>
+            </div>
+        </section>
+        
+        <!-- Уровни подготовки -->
+        <section id="levels">
+            <div class="section-card">
+                <h2><span class="section-number">2</span> Пошаговый план прокачки на разных уровнях</h2>
+                
+                <div class="levels">
+                    <div class="level-card beginner">
+                        <div class="level-title">
+                            <i class="fas fa-bullseye"></i>
+                            <h3>Уровень: Базовый/Средний (Target: Band 5.0-6.5)</h3>
+                        </div>
+                        <p><strong>Фокус:</strong> Техника, скорость и базовое понимание.</p>
+                        
+                        <ol>
+                            <li><strong>Отработайте «сканнирование» (scanning).</strong> Упражнение: возьмите статью. Засеките 1 минуту и найдите в ней все даты, имена или конкретные термины.</li>
+                            <li><strong>Учитесь видеть ключевые слова в вопросах.</strong> Без этого навыка вы будете искать вслепую.</li>
+                            <li><strong>Начинайте с «простых» типов вопросов,</strong> где ответ — это слово или цифра из текста:
+                                <ul>
+                                    <li>Short-answer questions</li>
+                                    <li>Sentence completion</li>
+                                    <li>True/False/Not Given (сфокусируйтесь на этом отдельно)</li>
+                                </ul>
+                            </li>
+                            <li><strong>Расширяйте академический словарный запас.</strong> Учите не отдельные слова, а семейства слов: economy (n) → economic (adj) → economize (v).</li>
+                            <li><strong>Тренируйте тайминг:</strong> 20 минут на текст. Сначала без учета времени, потом строго по таймеру.</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="level-card intermediate">
+                        <div class="level-title">
+                            <i class="fas fa-bullseye"></i>
+                            <h3>Уровень: Выше среднего (Target: Band 7.0-7.5)</h3>
+                        </div>
+                        <p><strong>Фокус:</strong> Понимание деталей, контекста и «ловушек».</p>
+                        
+                        <ol>
+                            <li><strong>Глубоко разбирайте тип вопросов True/False/Not Given и Yes/No/Not Given.</strong>
+                                <ul>
+                                    <li><strong>True/Yes:</strong> Утверждение точно и однозначно есть в тексте.</li>
+                                    <li><strong>False/No:</strong> Утверждение противоречит тексту.</li>
+                                    <li><strong>Not Given:</strong> В тексте нет этой информации. Нельзя ни подтвердить, ни опровергнуть. Это самая частая ловушка!</li>
+                                </ul>
+                            </li>
+                            <li><strong>Отрабатывайте Matching-задания</strong> (заголовки к параграфам, информация к параграфам). Ключ — найти главную идею параграфа, а не деталь.
+                                <ul>
+                                    <li>Прочитайте параграф → сформулируйте его суть про себя → ищите заголовок, который ее отражает.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Учитесь понимать мнение автора и цель параграфа.</strong> Для этого анализируйте вводные слова: However, Therefore, For example, In conclusion.</li>
+                            <li><strong>Практикуйте «умные» догадки по контексту.</strong> Не знаете слово? Посмотрите на предложение до и после. Какая логика?</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="level-card advanced">
+                        <div class="level-title">
+                            <i class="fas fa-bullseye"></i>
+                            <h3>Уровень: Продвинутый (Target: Band 8.0-9.0)</h3>
+                        </div>
+                        <p><strong>Фокус:</strong> Скорость, безупречная точность и сложные тексты.</p>
+                        
+                        <ol>
+                            <li><strong>Доведите технику «сканнирования» до автоматизма.</strong> Вы должны интуитивно чувствовать, в какой части текста искать ответ.</li>
+                            <li><strong>Анализируйте свои редкие ошибки.</strong> Почему вы выбрали не тот ответ? Поняли ли вы логику вопроса?
+                                <ul>
+                                    <li>Частая ошибка высоких уровней: «передумывание» и поиск скрытого смысла там, где его нет. Часто ответ лежит на поверхности.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Читайте сложные академические тексты вне подготовки:</strong>
+                                <ul>
+                                    <li>Журналы: National Geographic, The Economist, Scientific American.</li>
+                                    <li>Академические статьи: по темам IELTS (психология, экология, технологии).</li>
+                                </ul>
+                            </li>
+                            <li><strong>Тренируйте полный модуль (60 минут)</strong> в условиях, близких к экзаменационным: без телефона, с бланком ответов.</li>
+                            <li><strong>Учите сложные связки и речевые обороты,</strong> которые мешают пониманию: "Notwithstanding the arguments," "It could be inferred that," "A lends credence to B."</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="tip">
+                    <i class="fas fa-chart-line"></i>
+                    <strong>Совет:</strong> Честно оцените свой текущий уровень и следуйте рекомендациям для него. Переходите к следующему уровню только после уверенного освоения текущего.
+                </div>
+            </div>
+        </section>
+        
+        <!-- Типы вопросов -->
+        <section id="question-types">
+            <div class="section-card">
+                <h2><span class="section-number">3</span> Разбор самых коварных типов вопросов</h2>
+                
+                <div class="question-types">
+                    <div class="question-card">
+                        <div class="question-title">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            True/False/Not Given & Yes/No/Not Given
+                        </div>
+                        <p><strong>Запомните:</strong> Это вопросы о фактах из текста. Ваше мнение или общие знания — не в счет.</p>
+                        
+                        <h4>Алгоритм:</h4>
+                        <ol>
+                            <li>Найдите в тексте место, соответствующее ключевым словам из утверждения.</li>
+                            <li>Сравните информацию дословно. Меняется ли смысл из-за одного слова?</li>
+                            <li><strong>Пример:</strong> Утверждение: "The method was popular in the 19th century." Текст: "The method was introduced in the 19th century." → Not Given (не сказано, был ли популярен).</li>
+                            <li>Если вы не можете найти информацию для сравнения → Not Given.</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="question-card">
+                        <div class="question-title">
+                            <i class="fas fa-heading"></i>
+                            Matching Headings (Подбор заголовков к параграфам)
+                        </div>
+                        <ul>
+                            <li><strong>Сделайте сначала!</strong> Это поможет понять структуру всего текста.</li>
+                            <li>Исключайте явно неподходящие варианты.</li>
+                            <li>Обращайте внимание на <strong>первые-последние предложения параграфа</strong> — там часто находится главная мысль.</li>
+                            <li>Сформулируйте главную идею параграфа своими словами, затем ищите совпадение.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="question-card">
+                        <div class="question-title">
+                            <i class="fas fa-th-list"></i>
+                            Matching Information (Какой параграф содержит информацию?)
+                        </div>
+                        <ul>
+                            <li>Вопросы идут <strong>НЕ по порядку</strong>.</li>
+                            <li>Информация может быть <strong>мелкой деталью</strong> (дата, имя, пример).</li>
+                            <li>Помечайте, какой параграф вы уже использовали для ответа на другие вопросы.</li>
+                            <li>Ищите ключевые слова из вопроса в каждом параграфе.</li>
+                            <li>Не забудьте про синонимы и перефразы!</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <i class="fas fa-graduation-cap"></i>
+                    <strong>Экспертный совет:</strong> Тратьте больше времени на отработку именно этих типов вопросов. На них делают ошибки даже кандидаты с высоким уровнем английского!
+                </div>
+            </div>
+        </section>
+        
+        <!-- Система практики -->
+        <section id="practice">
+            <div class="section-card">
+                <h2><span class="section-number">4</span> Система практики и анализа ошибок</h2>
+                
+                <p>После каждого практического теста:</p>
+                
+                <div class="warning">
+                    <i class="fas fa-search-plus"></i>
+                    <strong>Разберите КАЖДУЮ ошибку.</strong> Не ставьте галочку «не угадал».
+                </div>
+                
+                <h3>Анализ ошибок:</h3>
+                <p>Спросите себя:</p>
+                <ul>
+                    <li>Почему я выбрал неверный ответ? (Не нашел место? Не понял слово? Попался на синоним?)</li>
+                    <li>Где в тексте правильный ответ? Найдите и подчеркните его.</li>
+                    <li>Какой тип вопроса? Где у меня слабое место?</li>
+                </ul>
+                
+                <h3>Таблица анализа ошибок:</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>№ вопроса</th>
+                            <th>Тип вопроса</th>
+                            <th>Моя ошибка</th>
+                            <th>Почему ошибочно</th>
+                            <th>Где в тексте ответ</th>
+                            <th>Вывод</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>5</td>
+                            <td>T/F/NG</td>
+                            <td>F (поставил NG)</td>
+                            <td>В тексте явно сказано, что это "позднее изобретение", а в утверждении "древнее"</td>
+                            <td>Para 3, строка 10</td>
+                            <td>Учить слова-антонимы</td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>Matching</td>
+                            <td>Перепутал параграфы</td>
+                            <td>Искал не главную идею, а деталь</td>
+                            <td>Главная мысль в 1-м предложении Para C</td>
+                            <td>Читать первый/последний сэнтэнс</td>
+                        </tr>
+                        <tr>
+                            <td>22</td>
+                            <td>Sentence completion</td>
+                            <td>Орфография</td>
+                            <td>Написал "environment" вместо "environment"</td>
+                            <td>Para 5, строка 7</td>
+                            <td>Проверять написание ключевых слов</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="tip">
+                    <i class="fas fa-book"></i>
+                    <strong>Важно:</strong> Выписывайте новую лексику не просто словами, а в контексте: выписывайте целую фразу из текста, где встретилось слово.
+                </div>
+                
+                <div class="highlight">
+                    <i class="fas fa-history"></i>
+                    <strong>Регулярность:</strong> Уделяйте анализу ошибок столько же времени, сколько написанию самого теста. Это самый быстрый путь к прогрессу!
+                </div>
+            </div>
+        </section>
+        
+        <!-- Ресурсы -->
+        <section id="resources">
+            <div class="section-card">
+                <h2><span class="section-number">5</span> Полезные ресурсы</h2>
+                
+                <div class="resources">
+                    <div class="resource-card">
+                        <div class="resource-name">Cambridge IELTS Books (10-18)</div>
+                        <p><strong>Для чего:</strong> Основная практика</p>
+                        <p><strong>Особенность:</strong> Реальные экзаменационные тексты. Главный ресурс!</p>
+                    </div>
+                    
+                    <div class="resource-card">
+                        <div class="resource-name">IELTS Liz (Reading Section)</div>
+                        <p><strong>Для чего:</strong> Объяснение типов вопросов</p>
+                        <p><strong>Особенность:</strong> Понятные уроки и упражнения.</p>
+                    </div>
+                    
+                    <div class="resource-card">
+                        <div class="resource-name">IELTS Simon (Blog)</div>
+                        <p><strong>Для чего:</strong> Стратегии</p>
+                        <p><strong>Особенность:</strong> Короткие и четкие советы от экс-экзаменатора.</p>
+                    </div>
+                    
+                    <div class="resource-card">
+                        <div class="resource-name">The New Scientist, BBC Future</div>
+                        <p><strong>Для чего:</strong> Для чтения вне подготовки</p>
+                        <p><strong>Особенность:</strong> Научно-популярные статьи, идеальный стиль и темы.</p>
+                    </div>
+                    
+                    <div class="resource-card">
+                        <div class="resource-name">Приложение: Quizlet</div>
+                        <p><strong>Для чего:</strong> Для заучивания слов</p>
+                        <p><strong>Особенность:</strong> Создавайте карточки с лексикой из пройденных текстов.</p>
+                    </div>
+                    
+                    <div class="resource-card">
+                        <div class="resource-name">Книга: "IELTS Reading Actual Tests"</div>
+                        <p><strong>Для чего:</strong> Дополнительная практика</p>
+                        <p><strong>Особенность:</strong> Новые тексты и вопросы.</p>
+                    </div>
+                </div>
+                
+                <div class="tip">
+                    <i class="fas fa-filter"></i>
+                    <strong>Совет:</strong> Не пытайтесь использовать все ресурсы сразу. Выберите 2-3 основных и работайте с ними систематически. Качество важнее количества!
+                </div>
+                
+                <div class="warning">
+                    <i class="fab fa-telegram"></i>
+                    <strong>Не забудьте:</strong> Подписывайтесь на <strong>@ielts_in1month</strong> в Telegram! Там мы регулярно публикуем дополнительные материалы, полезные статьи для чтения и советы по подготовке.
+                </div>
+            </div>
+        </section>
+        
+        <!-- Чек-лист -->
+        <section id="checklist">
+            <div class="section-card">
+                <h2><span class="section-number">6</span> Итог: Чек-лист для успеха на экзамене</h2>
+                
+                <p>Во время экзамена:</p>
+                
+                <div class="checklist">
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>Просмотрел заголовки и структуру текста (2 мин).</div>
+                    </div>
+                    
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>Внимательно прочитал вопросы, подчеркнул ключевые слова.</div>
+                    </div>
+                    
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>Помню, что ответы идут по порядку (кроме Matching и вставки заголовков).</div>
+                    </div>
+                    
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>Ищу синонимы и перефразы, а не дословные совпадения.</div>
+                    </div>
+                    
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>Для T/F/NG: не добавляю свои знания, ищу прямое подтверждение/опровержение в тексте.</div>
+                    </div>
+                    
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>Слежу за временем: ~17-18 мин на текст, 2-3 мин на перенос ответов.</div>
+                    </div>
+                    
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div>Аккуратно переношу ответы в бланк (проверяю орфографию!).</div>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <i class="fas fa-dumbbell"></i>
+                    <strong>Главный секрет:</strong> Успех в Reading — это навык, а не знание. Этот навык (поиск информации) тренируется так же, как мышца. Регулярность и анализ ошибок — ваш ключ к высокому баллу.
+                </div>
+                
+                <div class="tip">
+                    <i class="fas fa-calendar-alt"></i>
+                    <strong>P.S.</strong> Сохрани этот гайд. Чередуй дни: один день — отработка определенного типа вопросов (например, только T/F/NG), другой день — полный тест на время с последующим разбором по таблице.
+                </div>
+                
+                <div class="warning" style="background-color: #e3f2fd; border-left-color: #2196F3;">
+                    <i class="fas fa-rocket"></i>
+                    <strong>Удачи! Ты сможешь найти любой ответ 🔍🚀</strong>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-book-reader"></i> IELTS Reading Guide
+                </div>
+                <div class="footer-tg">
+                    <i class="fab fa-telegram"></i>
+                    <span>Подписывайтесь: @ielts_in1month</span>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2023 IELTS Reading Guide. Все права защищены. Материалы подготовлены для канала @ielts_in1month
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to top button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <script>
+        // Навигация
+        document.addEventListener('DOMContentLoaded', function() {
+            // Получаем все ссылки навигации
+            const navLinks = document.querySelectorAll('.nav-links a');
+            
+            // Обработчик клика по ссылкам навигации
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Удаляем активный класс у всех ссылок
+                    navLinks.forEach(item => item.classList.remove('active'));
+                    
+                    // Добавляем активный класс текущей ссылке
+                    this.classList.add('active');
+                    
+                    // Получаем ID целевого раздела
+                    const targetId = this.getAttribute('href');
+                    const targetSection = document.querySelector(targetId);
+                    
+                    // Плавная прокрутка к разделу
+                    if (targetSection) {
+                        window.scrollTo({
+                            top: targetSection.offsetTop - 150,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Back to top button
+            const backToTopButton = document.getElementById('backToTop');
+            
+            // Показать/скрыть кнопку при прокрутке
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > 300) {
+                    backToTopButton.classList.add('show');
+                } else {
+                    backToTopButton.classList.remove('show');
+                }
+            });
+            
+            // Обработчик клика по кнопке "Наверх"
+            backToTopButton.addEventListener('click', function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+                
+                // Обновить активную ссылку в навигации
+                navLinks.forEach(item => item.classList.remove('active'));
+                document.querySelector('.nav-links a[href="#home"]').classList.add('active');
+            });
+            
+            // Обновление активной ссылки при прокрутке
+            window.addEventListener('scroll', function() {
+                let current = '';
+                const sections = document.querySelectorAll('section');
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    
+                    if (pageYOffset >= sectionTop - 200) {
+                        current = section.getAttribute('id');
+                    }
+                });
+                
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+            
+            // Добавляем стили для упоминаний Telegram-канала
+            const tgMentions = document.querySelectorAll('.warning strong, .tip strong');
+            tgMentions.forEach(el => {
+                if (el.textContent.includes('@ielts_in1month') || el.textContent.includes('ielts_in1month')) {
+                    el.style.color = '#0088cc';
+                    el.style.backgroundColor = 'rgba(0, 136, 204, 0.1)';
+                    el.style.padding = '3px 8px';
+                    el.style.borderRadius = '4px';
+                    el.style.margin = '0 2px';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
